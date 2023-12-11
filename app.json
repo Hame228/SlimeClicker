@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Slime Clicker",
+    "slug": "SlimeClicker",
+    "version": "maksiks",
+    "orientation": "portrait",
+    "icon": "./assets/icon3.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/l.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#5e798c"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon3.png",
+        "backgroundColor": "#5e798c"
+      },
+      "package": "com.hame.SlimeClicker"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b0ddcd50-ab1a-4cd2-a4b6-44bca0d24da2"
+      }
+    }
+  }
+}
